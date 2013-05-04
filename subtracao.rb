@@ -1,7 +1,7 @@
 #encoding: iso-8859-1
 require 'socket'
 
-port = 9091
+port = 9092
 host_server='0.0.0.0'
 server =  TCPServer.open(host_server,port)
 puts("Servidor Soma Executando") 
